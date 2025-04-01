@@ -1,28 +1,26 @@
 <?php
-include 'calcular.php';
-
-function soma($num1 , $num2) {
+function soma($numero1, $numero2) {
     
- $total = $num1+$num2;
+ $total = $numero1+$numero2;
 
  return $total;
 }
-function subtracao($num1 , $num2) {
+function subtracao($numero1, $numero2) {
     
-    $total = $num1-$num2;
+    $total = $numero1+$numero2;
    
     return $total;
 }
-   function divisao($num1 , $num2) {
+   function divisao($numero1, $numero2) {
     
-    $total = $num1/$num2;
+    $total = $numero1+$numero2;
    
     return $total;
 }
 
-   function multiplicacao($num1 , $num2) {
+   function multiplicacao($numero1, $numero2) {
     
-    $total = $num1*$num2;
+    $total = $numero1+$numero2;
    
     return $total;
 }
